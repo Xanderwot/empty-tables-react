@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+table {
+  margin: 20px 40%;
+}
+
+table thead tr {
+  background: gray;
+}
+
+table td {
+  border: 1px solid #fff;
+}
+
+img.empty-logo {
+  width: 200px;
+  display: flex;
+  align-self: center;
+}
+
+.empty-table {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 0 40%;
+}
