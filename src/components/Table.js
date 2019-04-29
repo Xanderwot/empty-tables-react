@@ -19,7 +19,7 @@ class Table extends Component {
 
     return (
       <div>
-        <table className='table'>
+        <table className='table table-dark'>
           <thead>
             <TableRow cells={headings} />
           </thead>
@@ -41,9 +41,9 @@ const emptyStateable = (WrappedTable) => {
     render () {
       if (this.state.rows.length === 0) {
         return (
-          <div>
-            <EmptyTable {...this.props} />
-            <button onClick={this.addRow}>Add row</button>
+          <div className='empty-content'>
+            <EmptyTable onClick={this.addRow} {...this.props} />
+            <a href='#' onClick={this.addRow}>Click to add some content</a>
           </div>
         );
       }

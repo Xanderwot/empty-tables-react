@@ -5,7 +5,7 @@ class EmptyTable extends Component {
   render() {
     return(
       <div className='empty-table'>
-        <img src={logo} className='empty-logo' alt='empty-logo' />
+        <i className="far fa-angry"></i>
         <b>Opps. Looks like the there is no content here.</b>
       </div>
     )

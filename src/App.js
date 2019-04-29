@@ -12,8 +12,10 @@ class App extends Component {
     const rows = [];
 
     return (
-      <div className="App">
-        <Table headings={headings} rows={rows} />
+      <div className="row justify-content-md-center">
+        <div className="App col-9">
+          <Table headings={headings} rows={rows} />
+        </div>
       </div>
     );
   }

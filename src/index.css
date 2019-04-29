@@ -4,18 +4,6 @@ body {
   font-family: sans-serif;
 }
 
-table {
-  margin: 20px 40%;
-}
-
-table thead tr {
-  background: gray;
-}
-
-table td {
-  border: 1px solid #fff;
-}
-
 img.empty-logo {
   width: 200px;
   display: flex;
@@ -27,4 +15,12 @@ img.empty-logo {
   flex-direction: column;
   width: 20%;
   margin: 0 40%;
+}
+
+.empty-content i.fa-angry {
+  font-size: 60px;
+}
+
+.empty-content {
+  margin: 30% auto;
 }
